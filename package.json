@@ -1,0 +1,24 @@
+{
+  "name": "@nodelint/policies",
+  "version": "1.0.0",
+  "description": "Available policies supported by the Org",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nodelint/policies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "workspaces": [
+    "customPolicy"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nodelint/policies/issues"
+  },
+  "homepage": "https://github.com/Nodelint/policies#readme"
+}
