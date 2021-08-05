@@ -11,9 +11,8 @@ import * as events from "./src/events/index.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function* main(ctx) {
-    console.log('hey from policy')
     console.log(ctx); // <-- from core
-    console.log("execute!");
+    console.log("execute customPolicy!");
 
     yield events.foo.id;
 }
@@ -22,7 +21,7 @@ async function* main(ctx) {
 const i18n = await Policy.loadi18n(path.join(__dirname, "src/i18n"));
 
 export default new Policy({
-    name: "CustomPolicy",
+    name: "customPolicy",
     mode: CONSTANTS.Mode.Asynchronous,
     defaultLang: "french",
     scope: [".eslintrc"],
