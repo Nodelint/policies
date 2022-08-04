@@ -1,0 +1,20 @@
+{
+  "name": "@nodelint/policy.package-json",
+  "version": "1.0.0",
+  "description": "Nodelint policy to assert the NPM package.json file.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "test": "mocha --parallel",
+    "coverage": "c8 -r html npm test",
+    "lint": "cross-env eslint src/**/*.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
+  "license": "MIT"
+}

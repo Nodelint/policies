@@ -1,6 +1,6 @@
 
 export const english = {
   intro: {
-      welcome: "welcome {{username}}!"
+    welcome: "welcome {{username}}!"
   }
 };
