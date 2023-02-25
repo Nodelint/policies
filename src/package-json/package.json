@@ -6,6 +6,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "prepublishOnly": "npm run build",
     "test-only": "node --test ./test",
     "test": "npm run lint && npm run test-only",
@@ -17,5 +18,8 @@
   ],
   "keywords": [],
   "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@npm/types": "^1.0.2"
+  }
 }
