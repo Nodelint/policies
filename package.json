@@ -26,13 +26,13 @@
     "url": "https://github.com/Nodelint/policies/issues"
   },
   "homepage": "https://github.com/Nodelint/policies#readme",
-  "dependencies": {
-    "@nodelint/policy": "^1.1.1"
-  },
   "devDependencies": {
     "@nodesecure/eslint-config": "^1.6.0",
     "@types/node": "^18.14.1",
     "c8": "^7.13.0",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@nodelint/policy": "^1.1.2"
   }
 }
