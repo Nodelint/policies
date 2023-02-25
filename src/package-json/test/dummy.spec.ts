@@ -1,8 +1,7 @@
-// Import Third-party Dependencies
-import { expect } from "chai";
+// Import Node.js Dependencies
+import { test } from "node:test";
+import assert from "node:assert";
 
-describe("dummy", () => {
-  it("should be ok", () => {
-    expect(true).to.equal(true);
-  });
+test("dummy", () => {
+  assert.strictEqual(1, 1);
 });

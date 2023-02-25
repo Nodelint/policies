@@ -2,13 +2,14 @@
 Nodelint official supported workspaces with policies.
 
 ## Requirements
-- [Node.js](https://nodejs.org/en/) version 14 or higher
+- [Node.js](https://nodejs.org/en/) version 16 or higher
 - npm v7+ for [workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces)
 
 ## Available policies
 Click on one of the links to access the documentation of the policy:
 
 | policy name | package and link |
+| --- | --- |
 | policy.package-json | [@nodelint/policy.package-json](./src/package-json/README.md) |
 
 These packages are available in the Node Package Repository and can be easily installed with [npm](https://docs.npmjs.com/getting-started/what-is-npm) or [yarn](https://yarnpkg.com).
